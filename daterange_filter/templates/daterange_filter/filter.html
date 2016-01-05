@@ -1,6 +1,6 @@
 {% load i18n admin_static %}
 <div class="filter">
-<h3>{% blocktrans with filter_title=title %} By {{ filter_title }} {% endblocktrans %}</h3>
+<span class="label label-success" style="float:left; font-size: 13px"> {% blocktrans with filter_title=title %} By {{ filter_title }} {% endblocktrans %}</span>
 <style>
     .calendarbox, .clockbox {
         /* Make sure the calendar widget popover displays in front of the sidebar */
